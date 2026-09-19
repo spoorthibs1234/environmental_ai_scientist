@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environmental AI Scientist</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <div class="eyebrow">RAG • MULTI-METRIC REASONING • EVIDENCE</div>
+    <h1>Environmental AI Scientist</h1>
+    <p>Analyze soil, climate, land use, biodiversity and human-impact interactions.</p>
+  </div>
+  <div class="status" id="status">Checking system...</div>
+</header>
+
+<main class="layout">
+<section class="panel input-panel">
+  <div class="panel-head">
+    <h2>Environmental profile</h2>
+    <button id="exampleBtn" class="secondary">Load Example</button>
+  </div>
+
+  <label>Natural-language query</label>
+  <textarea id="message" rows="5" placeholder="Example: Biodiversity is declining on my semi-arid wheat farm. Soil organic carbon is 0.3%, rainfall is 480 mm and the farm is monoculture."></textarea>
+
+  <div class="grid">
+    <div><label>Soil pH</label><input id="ph" type="number" step="0.1" placeholder="6.5"></div>
+    <div><label>Organic carbon %</label><input id="soc" type="number" step="0.01" placeholder="0.3"></div>
+    <div><label>Soil moisture %</label><input id="moisture" type="number" step="0.1" placeholder="12"></div>
+    <div><label>Annual rainfall (mm)</label><input id="rainfall" type="number" step="1" placeholder="480"></div>
+    <div><label>Temperature °C</label><input id="temperature" type="number" step="0.1" placeholder="29"></div>
+    <div><label>Crop / vegetation</label><input id="crop" placeholder="wheat"></div>
+    <div><label>Land use</label>
+      <select id="landUse"><option value="">Select</option><option>monoculture</option><option>intercropping</option><option>agroforestry</option><option>mixed farming</option><option>forest</option><option>grassland</option><option>wetland</option></select>
+    </div>
+    <div><label>Habitat diversity</label>
+      <select id="habitat"><option value="">Select</option><option>low</option><option>medium</option><option>high</option></select>
+    </div>
+    <div><label>Pollution</label>
+      <select id="pollution"><option value="">Select</option><option>low</option><option>medium</option><option>high</option></select>
+    </div>
+    <div><label>Region / climate zone</label><input id="location" placeholder="Semi-arid, India"></div>
+  </div>
+
+  <div class="actions">
+    <button id="analyzeBtn" class="primary">Analyze Environment</button>
+    <button id="resetBtn" class="secondary">Reset Conversation</button>
+  </div>
+
+  <div class="json-box">
+    <div class="json-title">Structured JSON input</div>
+    <textarea id="jsonInput" rows="9" spellcheck="false"></textarea>
+    <button id="jsonBtn" class="secondary">Analyze JSON</button>
+  </div>
+</section>
+
+<section class="panel output-panel">
+  <div class="panel-head">
+    <h2>Environmental scientist report</h2>
+    <span id="turns" class="badge">0 turns</span>
+  </div>
+
+  <div id="clarification" class="clarification hidden"></div>
+  <div class="cards" id="metricCards"></div>
+
+  <div class="report" id="report">
+    <div class="empty">
+      <div class="empty-icon">🌱</div>
+      <h3>Ready for analysis</h3>
+      <p>Enter environmental information or load the example. The system will retrieve evidence and reason across multiple variables.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Multi-metric reasoning</h3>
+    <div id="reasoning" class="reasoning-list"><div class="muted">Reasoning will appear after analysis.</div></div>
+  </div>
+
+  <div class="section">
+    <h3>Retrieved scientific evidence</h3>
+    <div id="evidence" class="evidence-list"><div class="muted">Retrieved sources will appear here.</div></div>
+  </div>
+</section>
+</main>
+
+<footer>Environmental AI Scientist • Local RAG demonstration • Evidence should be reviewed for site-specific decisions.</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

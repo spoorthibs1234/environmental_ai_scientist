@@ -1,0 +1,179 @@
+[
+  {
+    "id": "REC001",
+    "action": "Introduce a drought-compatible legume cover crop/intercrop",
+    "why": "Legumes can add biologically fixed nitrogen while maintaining soil cover, helping support soil function under water-limited conditions.",
+    "metrics": [
+      "soil organic carbon",
+      "soil cover",
+      "plant diversity",
+      "soil moisture"
+    ],
+    "time_horizon": "Short term: one growing season for establishment",
+    "confidence": "Medium",
+    "expected_impact": {
+      "metric": "soil organic carbon",
+      "target": "Track improvement from the baseline over successive growing seasons",
+      "measurement": "Measure soil organic carbon periodically using soil testing"
+    },
+    "monitoring": "Record baseline soil organic carbon, soil moisture and plant diversity before implementation, then compare measurements after each growing season.",
+    "evidence_summary": "FAO resources describe the role of biodiversity-friendly agricultural practices, including crop diversification and cover crops, in supporting soil and ecosystem functions.",
+    "keywords": [
+      "legume",
+      "cover crop",
+      "intercrop",
+      "soil organic carbon",
+      "soil cover"
+    ],
+    "triggers": [
+      "very_low_soil_carbon",
+      "low_rainfall"
+    ],
+    "evidence": [
+      "KB003",
+      "KB008"
+    ]
+  },
+  {
+    "id": "REC002",
+    "action": "Establish native, low-water field margins",
+    "why": "A structurally different vegetation strip can provide additional habitat and resources for organisms, increasing habitat diversity and supporting species richness.",
+    "metrics": [
+      "habitat diversity",
+      "species richness",
+      "vegetation diversity",
+      "habitat structure"
+    ],
+    "time_horizon": "Short term: establishment; medium term: 2-5 years for habitat development",
+    "confidence": "Medium",
+    "expected_impact": {
+      "metric": "habitat diversity and species richness",
+      "target": "Increase the diversity of habitat features and observed species relative to the baseline",
+      "measurement": "Record habitat types and conduct periodic plant, insect and other species observations"
+    },
+    "monitoring": "Record the baseline number and types of habitat features and observed species, then repeat biodiversity observations periodically.",
+    "evidence_summary": "FAO and biodiversity indicator resources describe habitat diversity and vegetation structure as important components of agricultural biodiversity.",
+    "keywords": [
+      "habitat",
+      "native",
+      "vegetation",
+      "biodiversity",
+      "field margin"
+    ],
+    "triggers": [
+      "monoculture",
+      "low_habitat_diversity"
+    ],
+    "evidence": [
+      "KB003",
+      "KB006",
+      "KB009"
+    ]
+  },
+  {
+    "id": "REC003",
+    "action": "Use strategically placed agroforestry elements",
+    "why": "Agroforestry can add vertical and seasonal vegetation structure, providing additional habitat while improving landscape diversity and potentially supporting soil and water functions.",
+    "metrics": [
+      "habitat structure",
+      "species richness",
+      "vegetation diversity",
+      "soil cover",
+      "soil moisture"
+    ],
+    "time_horizon": "Medium term: 2-5 years for establishment; longer-term benefits as vegetation matures",
+    "confidence": "Medium",
+    "expected_impact": {
+      "metric": "habitat structure and species richness",
+      "target": "Increase structural and plant diversity relative to the baseline",
+      "measurement": "Monitor tree and shrub establishment, vegetation diversity and periodic species observations"
+    },
+    "monitoring": "Record the number and type of established trees and shrubs and repeat vegetation and biodiversity observations over time.",
+    "evidence_summary": "FAO agroforestry resources describe how trees integrated into agricultural landscapes can provide habitat, improve vegetation structure and contribute to multiple ecosystem functions.",
+    "keywords": [
+      "agroforestry",
+      "trees",
+      "habitat",
+      "climate",
+      "soil cover"
+    ],
+    "triggers": [
+      "low_rainfall",
+      "monoculture",
+      "low_habitat_diversity"
+    ],
+    "evidence": [
+      "KB007",
+      "KB004"
+    ]
+  },
+  {
+    "id": "REC004",
+    "action": "Increase soil-cover and organic-input management",
+    "why": "Maintaining soil cover and adding appropriate organic inputs can protect soil from erosion, support soil biological activity and contribute to maintaining or increasing soil organic carbon.",
+    "metrics": [
+      "soil organic carbon",
+      "soil cover",
+      "soil moisture",
+      "soil health"
+    ],
+    "time_horizon": "Short term: one growing season for cover establishment; medium term: multiple seasons for measurable soil-carbon change",
+    "confidence": "Medium",
+    "expected_impact": {
+      "metric": "soil organic carbon and soil cover",
+      "target": "Maintain or increase soil organic carbon relative to the baseline while increasing soil surface cover",
+      "measurement": "Conduct periodic soil organic carbon testing and estimate the percentage of soil covered"
+    },
+    "monitoring": "Measure baseline soil organic carbon and soil-cover percentage, then compare results after each growing season.",
+    "evidence_summary": "FAO soil resources and USDA NRCS guidance describe soil cover and organic inputs as important practices for maintaining soil health and supporting soil organic matter.",
+    "keywords": [
+      "soil organic carbon",
+      "cover crop",
+      "soil cover",
+      "organic inputs",
+      "soil health"
+    ],
+    "triggers": [
+      "very_low_soil_carbon",
+      "low_soil_moisture"
+    ],
+    "evidence": [
+      "KB001",
+      "KB008"
+    ]
+  },
+  {
+    "id": "REC005",
+    "action": "Create or restore habitat connections between fragmented areas",
+    "why": "Connecting suitable habitat patches can improve landscape connectivity, allowing species to move between habitat areas and potentially reducing the effects of habitat fragmentation.",
+    "metrics": [
+      "habitat connectivity",
+      "species movement",
+      "species richness",
+      "habitat diversity"
+    ],
+    "time_horizon": "Medium to long term: 2-10+ years depending on habitat restoration and vegetation establishment",
+    "confidence": "Medium",
+    "expected_impact": {
+      "metric": "habitat connectivity and species movement",
+      "target": "Increase connected habitat area and reduce gaps between suitable habitat patches relative to the baseline",
+      "measurement": "Map habitat patches and monitor connectivity together with periodic biodiversity observations"
+    },
+    "monitoring": "Map baseline habitat patches and connections, then compare habitat connectivity and observed biodiversity at regular monitoring intervals.",
+    "evidence_summary": "IUCN resources describe ecological connectivity as important for maintaining ecological processes and enabling species movement between habitat areas.",
+    "keywords": [
+      "connectivity",
+      "fragmentation",
+      "habitat",
+      "species movement",
+      "restoration"
+    ],
+    "triggers": [
+      "deforestation",
+      "low_habitat_diversity"
+    ],
+    "evidence": [
+      "KB009"
+    ]
+  }
+]

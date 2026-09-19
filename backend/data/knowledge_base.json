@@ -1,0 +1,102 @@
+[
+  {
+    "id": "KB001",
+    "title": "Soil organic carbon and soil health",
+    "topic": "soil health",
+    "source": "FAO",
+    "year": 2021,
+    "url": "https://www.fao.org/soils-portal/soil-management/soil-organic-carbon/en/",
+    "keywords": ["soil organic carbon", "SOC", "soil structure", "water", "soil health"],
+    "text": "Soil organic carbon is a central component of soil organic matter and is associated with soil structure, nutrient cycling and water-related soil functions. Management practices that maintain or increase organic inputs and reduce degradation can support soil health."
+  },
+  {
+    "id": "KB002",
+    "title": "The State of the World's Land and Water Resources",
+    "topic": "land and water",
+    "source": "FAO",
+    "year": 2021,
+    "url": "https://www.fao.org/land-water/solaw2021/en/",
+    "keywords": ["land degradation", "water", "soil", "agriculture", "land management"],
+    "text": "Land and water resources are interconnected. Sustainable land and water management can help maintain productive capacity while reducing degradation and pressure on ecosystems."
+  },
+  {
+    "id": "KB003",
+    "title": "The State of the World's Biodiversity for Food and Agriculture",
+    "topic": "agricultural biodiversity",
+    "source": "FAO",
+    "year": 2019,
+    "url": "https://www.fao.org/3/ca3129en/ca3129en.pdf",
+    "keywords": ["biodiversity", "agriculture", "pollinators", "habitat", "species diversity", "crop diversity"],
+    "text": "Biodiversity for food and agriculture includes organisms at genetic, species and ecosystem levels. Agricultural practices and landscape structure influence biodiversity and the ecosystem services associated with it."
+  },
+  {
+    "id": "KB004",
+    "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+    "topic": "climate biodiversity",
+    "source": "IPCC",
+    "year": 2022,
+    "url": "https://www.ipcc.ch/report/ar6/wg2/",
+    "keywords": ["climate", "temperature", "rainfall", "drought", "species", "ecosystems"],
+    "text": "Climate change affects ecosystems through changes in temperature, precipitation, extremes and other climatic conditions. Vulnerability depends on exposure, sensitivity and adaptive capacity, and climate pressures interact with land-use and other human pressures."
+  },
+  {
+    "id": "KB005",
+    "title": "Global Assessment Report on Biodiversity and Ecosystem Services",
+    "topic": "biodiversity drivers",
+    "source": "IPBES",
+    "year": 2019,
+    "url": "https://www.ipbes.net/global-assessment",
+    "keywords": ["biodiversity", "land use", "habitat loss", "fragmentation", "pollution", "ecosystem"],
+    "text": "Changes in land and sea use, direct exploitation, climate change, pollution and invasive alien species are major direct drivers of changes in biodiversity. Drivers can interact and compound ecological pressures."
+  },
+  {
+    "id": "KB006",
+    "title": "Convention on Biological Diversity: indicators and biodiversity",
+    "topic": "biodiversity indicators",
+    "source": "Convention on Biological Diversity",
+    "year": 2022,
+    "url": "https://www.cbd.int/indicators/",
+    "keywords": ["species richness", "habitat diversity", "biodiversity indicators", "ecosystem"],
+    "text": "Biodiversity monitoring uses indicators at different levels, including species, ecosystems and pressures. Repeated measurements help detect trends and evaluate responses."
+  },
+  {
+    "id": "KB007",
+    "title": "Agroforestry systems and biodiversity",
+    "topic": "agroforestry",
+    "source": "FAO",
+    "year": 2013,
+    "url": "https://www.fao.org/forestry/agroforestry/en/",
+    "keywords": ["agroforestry", "trees", "habitat", "soil", "farm biodiversity", "landscape"],
+    "text": "Agroforestry integrates trees with crops or livestock. Depending on design and local conditions, it can diversify habitat structure, contribute organic matter and provide multiple ecological functions while retaining agricultural production."
+  },
+  {
+    "id": "KB008",
+    "title": "Cover crops and soil ecosystem functions",
+    "topic": "cover crops",
+    "source": "USDA NRCS",
+    "year": 2024,
+    "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soil/cover-crops",
+    "keywords": ["cover crops", "soil cover", "erosion", "organic matter", "water", "biodiversity"],
+    "text": "Cover crops can protect soil between cash crops and are used in conservation systems to reduce erosion and support soil health. Their performance depends on species selection, climate, soil and management."
+  },
+  {
+    "id": "KB009",
+    "title": "Habitat connectivity and biodiversity",
+    "topic": "habitat connectivity",
+    "source": "IUCN",
+    "year": 2021,
+    "url": "https://www.iucn.org/resources/issues-brief/habitat-connectivity",
+    "keywords": ["connectivity", "fragmentation", "habitat", "species movement", "landscape"],
+    "text": "Ecological connectivity concerns the movement of organisms and ecological processes across landscapes. Fragmentation can alter connectivity, while connected habitat can support movement and ecological functions."
+  },
+  {
+    "id": "KB010",
+    "title": "Pollution and biodiversity",
+    "topic": "pollution",
+    "source": "IPBES",
+    "year": 2019,
+    "url": "https://www.ipbes.net/global-assessment",
+    "keywords": ["pollution", "biodiversity", "water quality", "species", "ecosystem"],
+    "text": "Pollution is a direct pressure on biodiversity. Its ecological effects depend on pollutant type, concentration, exposure pathway, species sensitivity and interactions with other environmental pressures."
+  }
+]
